@@ -1,0 +1,93 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background:yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 50;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color:purple;
+}
+.home{
+    height: 100vh;
+    background:linear-gradient(-90deg ,rgb(1, 1, 31) 65%,red 35% );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+.home-image{
+    width: 500px;
+    height: 500px;
+    background: orange;
+    display: flex;
+    border-radius: 50%;
+    border: 25px solid white;
+    outline: 20px solid blueviolet;
+}
+.home-content{
+    max-width: 700px;
+    color:white;
+    text-align: right;
+}
+.home-content h1{
+    font-size: 55px;
+    line-height: 1.2;
+}
+.home-content h3{
+    font-size: 40px;
+    color: aqua;
+}
+.home-content p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.home-sci{
+    margin: 25px 0 40px;
+}
+.home-sci a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    color: blueviolet;
+    text-decoration: none;
+margin-left: 12px;
+transition: .5s;
+}
+.home-sci a:hover{
+    background: red;
+    color: beige;
+
+}
